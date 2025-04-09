@@ -1,6 +1,9 @@
 # Hello
 ## This is a test
 
+<script src="loader.js"></script>
+
+
 ```javascript
 // here's some javascript:
 console.log("hello world");
