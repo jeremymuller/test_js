@@ -1,3 +1,7 @@
+---
+title: Yay
+---
+
 # Hello
 ## This is a test
 
