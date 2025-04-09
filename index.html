@@ -1,7 +1,9 @@
+<html>
+<head></head>
+<body>
+
 <h1>Hello</h1>
 <h2>This is a test</h2>
-
-
 
 <code>
 // here's some javascript:
@@ -18,7 +20,7 @@ osc.stop(audioCtx.currentTime + 2);
 
 </code>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.29.1/min/vs/loader.min.js"></script>
+<script src="loader.js"></script>
 <script>
 // Proxy Monaco Editor workers using a data URL (adapted from: https://github.com/microsoft/monaco-editor/blob/main/docs/integrate-amd-cross.md)
 require.config({ paths: { "vs": "https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.29.1/min/vs/" }});
@@ -47,3 +49,6 @@ require(["vs/editor/editor.main"], function () {
     }));
 });
 </script>
+</body>
+
+</html>
